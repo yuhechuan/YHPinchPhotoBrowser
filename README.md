@@ -19,6 +19,8 @@ Objective-C
 
 其中主要用到了 UIPinchGestureRecognizer 和UIPanGestureRecognizer  两种手势, 不用window实现和window一样的覆盖全屏效果
 
+[功能展示图](https://github.com/yuhechuan/YHPinchPhotoBrowser/blob/master/YHPinchPhotoBrowser.gif)
+
 ### 使用方法
 ```
 // 导入头文件
