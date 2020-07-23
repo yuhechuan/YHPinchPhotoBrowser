@@ -55,7 +55,6 @@
         
         _pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panAction:)];
         _pan.delegate = self;
-        _pan.minimumNumberOfTouches = 2;
         [_gestureView addGestureRecognizer:_pan];
         _animationBackgroundColor = [UIColor blackColor];
         _backgroundApla = 0.5;
